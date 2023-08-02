@@ -12,7 +12,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 
 @Path("/api/v1/products")
-public class ProductController {
+public class ProductResource {
 
     @Inject
     ProductService productService;
